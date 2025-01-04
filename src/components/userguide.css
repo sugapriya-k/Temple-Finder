@@ -1,0 +1,55 @@
+/* Add your custom styles here to format the user guide page */
+.user-guide-container {
+    margin: 20px;
+    padding: 10px;
+    margin-bottom: 100px;
+  }
+  
+  .guide-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .intro{
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
+  .table-of-contents {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  ol {
+    padding-left: 20px;
+  }
+  .ul{
+    list-style-type: disc;
+    margin-left: 80px;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .conclusion {
+    margin-top: 30px;
+  }
+
+  @media (max-width: 768px){
+    .ul{
+        margin-left: 30px;
+    }
+  }
+  

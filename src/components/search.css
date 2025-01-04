@@ -1,0 +1,138 @@
+.div{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.notemp{
+    margin-top: 300px;
+    margin-left: 600px;
+    margin-bottom: 300px;
+}
+
+input{
+    border: 1px solid #99A98F;
+    height: 20px;
+    width:600px;
+    border-radius: 2px;
+    background-color:#C1D0B5;
+    color: rgb(6, 7, 7);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 20px;
+    max-width: 1500px;
+    padding-left: 30px;
+}
+
+.card {
+    background-color: #D6E8DB;
+    color: #000000;
+    padding: 10px;
+    border: 2px solid #99A98F;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    width: 400px;
+    min-width: 300px;
+    text-align: center;
+}
+li{
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    input{
+        width: 200px;
+    }
+}
+.suggestions-container{
+    position: absolute;
+    background-color: #C1D0B5;
+    width: 610px;
+}
+
+.suggestions-list {
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.suggestions-list li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.suggestions-list li.visible {
+    display: block;
+    
+}
+
+.tname{
+    font-size: 25px;
+    height: 60px;
+    margin-top: 5px;
+}
+
+.taddress{
+    margin-top: 20px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.img{
+    height: 220px;
+    width:400px;
+    margin: 0px;
+}
+
+.knw{
+    height: 25px;
+    font-size: 15px;
+}
+
+.clk{
+    border: 2px solid #000000;
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bolder;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.ico{
+    
+    font-size: 25px;
+}
+
+.icoclk{
+    margin-left: 135px;
+    display: flex;
+    
+}
+
+input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    padding: 5px;
+}
+
+#li:hover {
+    background-color:#99A98F;
+}
+

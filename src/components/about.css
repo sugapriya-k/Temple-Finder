@@ -1,0 +1,19 @@
+.about{
+    margin: 10px;
+    margin-bottom: 100px;
+}
+.abt{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.abtdiv{
+    margin-bottom: 50px;
+}
+.tnk{
+    border: 2px solid black;
+}
+@media (max-width: 768px){
+    .abt{
+        margin-left: 20px;
+    }
+}
