@@ -9,16 +9,22 @@ Welcome to **TempleFinder** – a web application dedicated to helping users dis
 - **📱 Responsive Design**: Enjoy a seamless experience on both desktop and mobile devices.
 - **⚡ Fast & User-Friendly**: A simple, intuitive interface for quick and easy navigation.
 
-## 🛠️ Technologies Used
+## 💻 Technologies Used
 
-- **Frontend**:  
-  - React, HTML, CSS, JavaScript (for a sleek and responsive user interface)
-  
-- **Backend**:  
-  - Node.js, Express.js (for handling the backend logic)
-  
-- **APIs**:  
-  - Google Maps API (for location-based services and interactive maps)
+### **Frontend**:
+- **React**: For building the user interface.
+- **Material-UI**: For pre-designed UI components.
+- **Google Maps API**: For displaying maps and handling geolocation.
+- **Axios**: For making API requests.
+- **React Router**: For handling navigation and routing.
+- **Styled Components**: For writing component-level CSS.
+- **React Testing Libraries**: For testing React components.
+- **Emotion**: For CSS-in-JS styling.
+
+### **Backend**:
+- **Java**: The primary language for the backend.
+- **Spring Boot** (likely): Used for building backend APIs.
+- **Maven**: For managing project dependencies and builds.
 
 ## 🚀 Getting Started
 
