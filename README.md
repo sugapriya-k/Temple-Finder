@@ -13,18 +13,13 @@ Welcome to **TempleFinder** – a web application dedicated to helping users dis
 
 ### **Frontend**:
 - **React**: For building the user interface.
-- **Material-UI**: For pre-designed UI components.
 - **Google Maps API**: For displaying maps and handling geolocation.
-- **Axios**: For making API requests.
 - **React Router**: For handling navigation and routing.
-- **Styled Components**: For writing component-level CSS.
 - **React Testing Libraries**: For testing React components.
-- **Emotion**: For CSS-in-JS styling.
 
 ### **Backend**:
 - **Java**: The primary language for the backend.
-- **Spring Boot** (likely): Used for building backend APIs.
-- **Maven**: For managing project dependencies and builds.
+- **Spring Boot** : Used for building backend APIs.
 
 ## 🚀 Getting Started
 
